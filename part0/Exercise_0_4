@@ -1,3 +1,4 @@
+´´´mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -12,3 +13,4 @@ browser ->> server : HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.js
 server ->> browser : HTTP 200 
 browser ->> server : HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
 server ->> browser : HTTP 200
+´´´
